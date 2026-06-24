@@ -3,6 +3,23 @@
 ## Overview
 The Reading Log App is a full-stack web application designed to help families and schools track student reading activity. It supports parent and admin workflows, reader profiles, reading logs, progress tracking, badges, and dashboard-based features.
 
+## Project Status
+
+🚧 In Progress Portfolio Project
+
+This project is actively being developed and demonstrates full-stack development skills using React, Node.js, Express, MongoDB, and cloud deployment tools.
+
+## Demo
+
+### Login & Dashboard
+![Login Demo](gifs/login-demo.gif)
+
+### Reading Progress Tracking
+![Reading Log Demo](gifs/reading-log-demo.gif)
+
+### Reports & Visualization
+![Reports Demo](gifs/reports-demo.gif)
+
 ## Purpose
 This project was built to make reading progress easier to manage and more engaging for both parents and students. It also provides a structured way to log books, monitor pages read, and display progress visually.
 
