@@ -1,14 +1,31 @@
-# Reading Log App
-Full-Stack Reading Tracking Application built with React, Node.js, Express, and MongoDB.
 
-## Overview
-The Reading Log App is a full-stack web application designed to help families and schools track student reading activity. It supports parent and admin workflows, reader profiles, reading logs, progress tracking, badges, and dashboard-based features.
+# Reading Log App
+
+Full-Stack Reading Tracking Application built with React, Node.js, Express, MongoDB Atlas, and cloud deployment tools.
 
 ## Project Status
 
 🚧 In Progress Portfolio Project
 
-This project is actively being developed and demonstrates full-stack development skills using React, Node.js, Express, MongoDB, and cloud deployment tools.
+This project is actively being developed and demonstrates full-stack web development skills including frontend development, backend API development, database management, authentication, reporting, and deployment.
+
+---
+
+## Overview
+
+Reading Log App is a full-stack web application designed to help families and schools track student reading activities.
+
+The application allows students and parents to:
+
+* Record reading sessions
+* Track reading progress
+* Monitor reading streaks
+* View achievements and badges
+* Analyze reading habits through dashboards and reports
+
+The project focuses on creating an engaging reading experience while providing useful tracking and reporting tools.
+
+---
 
 ## Demo
 
@@ -24,77 +41,188 @@ This project is actively being developed and demonstrates full-stack development
 
 ![Reading Log Demo](gifs/log-reading.gif)
 
+---
+
 ## Purpose
-This project was built to make reading progress easier to manage and more engaging for both parents and students. It also provides a structured way to log books, monitor pages read, and display progress visually.
 
-## My Role
-I designed and developed the application structure, worked on both frontend and backend functionality, handled dashboard logic, implemented reader and reading log features, and worked on deployment and debugging.
+The goal of this project is to provide a structured and user-friendly platform for:
 
-## Tech Stack
-- React
-- JavaScript
-- Bootstrap
-- Node.js
-- Express
-- MongoDB
-- MongoDB Atlas
-- Render
+* Tracking reading activities
+* Monitoring reading progress
+* Encouraging consistent reading habits
+* Supporting parent involvement
+* Visualizing reading achievements and statistics
+
+---
 
 ## Key Features
-- Parent and admin login
-- Reader profile management
-- Book logging and reading history
-- Dashboard with total pages read
-- Badge display
-- Export to Excel
-- Reading streak calendar
-- Email reminder functionality
-- Responsive interface
 
-## Screenshots
-Screenshots for this project are available in the `screenshots` folder.
-## Sample Screens
+### Authentication & User Management
+
+* User registration and login
+* Secure authentication workflow
+* Reader profile management
+* Protected user routes
+
+### Reading Tracking
+
+* Add and manage books
+* Log reading sessions
+* Track pages read
+* Track reading time
+* Monitor reading streaks
 
 ### Dashboard
-![Dashboard](./screenshots/dashboard.png)
 
-### Reader Information
-![Reader Information](./screenshots/reader-info.png)
+* Reading progress summaries
+* Reader profile information
+* Achievement tracking
+* Activity monitoring
 
-### Admin Dashboard
-![Admin Dashboard](./screenshots/admin-dashboard.png)
+### Reporting & Analytics
 
-## Architecture / Workflow
-This project uses a React frontend connected to a Node.js/Express API with MongoDB as the database.
+* Reading activity reports
+* Dashboard visualizations
+* Progress tracking charts
+* Data export to Excel
 
-Example flow:
-- Parent logs in
-- Selects a reader
-- Logs reading activity
-- Dashboard updates pages and reading history
-- Reminder system checks activity and sends notifications
+### Parent & Student Workflow
 
-## Challenges and Solutions
-### Challenge 1: Managing protected routes and dashboard state
-I worked through authentication flow, token handling, and reader selection to keep the dashboard stable and user-specific.
+* Parent oversight features
+* Student reading records
+* Reading history management
+* Progress monitoring tools
 
-### Challenge 2: Tracking reading activity over time
-I implemented logic to use logged reading entries to calculate streaks and support reminder workflows.
+---
 
-### Challenge 3: Deployment and environment setup
-I connected the project to Render and MongoDB Atlas, handled environment variables, and debugged issues where local and deployed versions behaved differently.
+## Tech Stack
 
-## Live Demo
-Add your live demo link here
+### Frontend
+
+* React
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Bootstrap
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB Atlas
+
+### Development Tools
+
+* Git
+* GitHub
+* Postman
+* Visual Studio Code
+
+### Deployment
+
+* Render
+* Linux Environment
+
+---
+
+## Architecture
+
+```text
+Frontend (React)
+        ↓
+REST API (Node.js / Express)
+        ↓
+MongoDB Atlas
+```
+
+---
+
+## My Role
+
+This is a personal full-stack portfolio project.
+
+Responsibilities included:
+
+* Designing application architecture
+* Developing frontend user interfaces
+* Building backend REST APIs
+* Managing MongoDB database integration
+* Implementing authentication workflows
+* Creating dashboards and reporting features
+* Testing and debugging functionality
+* Managing source control using Git and GitHub
+* Deploying and maintaining the application
+
+---
+
+## Challenges & Lessons Learned
+
+During development, I gained hands-on experience with:
+
+* Full-stack application architecture
+* React component design
+* State management
+* REST API development
+* MongoDB data modeling
+* Authentication and authorization
+* Frontend/backend integration
+* Deployment and environment configuration
+* Debugging production issues
+
+---
 
 ## Future Improvements
-- SMS reminder support
-- Parent notification preferences
-- Improved analytics and reports
-- More polished visual dashboard cards
-- Teacher-specific tools if expanded
 
-## Folder Contents
-- `screenshots/` → UI screenshots
-- `gifs/` → short feature demos
-- `diagrams/` → architecture or workflow diagrams
+Planned enhancements include:
+
+* Email reminders and notifications
+* Advanced reporting dashboards
+* Mobile-responsive improvements
+* Additional reading analytics
+* Teacher portal functionality
+* Enhanced achievement and badge system
+* Cloud file storage integration
+
+---
+
+## Screenshots
+
+Additional screenshots are available in the `screenshots` folder.
+
+---
+
+## Repository Structure
+
+```text
+reading-log-app/
+│
+├── gifs/
+│   ├── login-demo.gif
+│   ├── home-demo.gif
+│   └── log-reading.gif
+│
+├── screenshots/
+│
+├── frontend/
+│
+├── backend/
+│
+└── README.md
+```
+
+---
+
+## Author
+
+**Shirin Kalantari**
+
+Full-Stack Developer | React | Node.js | MongoDB | Linux | AWS Learner
+
+GitHub:
+https://github.com/shirinmk
+
+Portfolio Project – 2025–2026
+
